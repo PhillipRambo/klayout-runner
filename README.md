@@ -14,5 +14,16 @@ To get started with KLayout Run, follow these steps:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/klayout-run.git
-   cd klayout-run
+   git clone https://github.com/PhillipRambo/klayout-runner.git
+   navigate to directory ./klayout-runner
+
+2. **Install Package**
+   ```bash
+   pip install -e
+3. **Verify Command**
+   klayout_run
+
+Klayout file manager is now executable from every directory.
+
+## Usage
+Klayout file manger gives the user the operatunity to both search current directory with or without corresponding children, and execute klayout in either dark og light mode. 
