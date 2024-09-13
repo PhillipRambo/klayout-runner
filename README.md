@@ -19,11 +19,11 @@ To get started with KLayout Run, follow these steps:
 
 2. **Install Package**
    ```bash
-   pip install -e
+   pip install -e .
 3. **Verify Command**
    klayout_run
 
 Klayout file manager is now executable from every directory.
 
 ## Usage
-Klayout file manger gives the user the operatunity to both search current directory with or without corresponding children, and execute klayout in either dark og light mode. 
+Klayout file manger gives the user the operatunity to both search current directory with or without corresponding children, and execute klayout in either dark og light mode.
