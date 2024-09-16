@@ -4,10 +4,10 @@ setup(
     name='klayout_run',
     version='0.1',
     py_modules=['klayout_run', 'searchlogic'],
-    install_requires=['pick'],  # Ensure dependencies are installed
+    install_requires=['pick'],
     entry_points={
         'console_scripts': [
-            'klayout_run=klayout_run:main'  # Entry point for the main script
+            'klayout_run=klayout_run:main' 
         ]
     }
 )
